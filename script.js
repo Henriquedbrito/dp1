@@ -33,27 +33,27 @@ if (numeroUm == 1){
 let abaixoDoPeso = 18;
 let pesoIdeal = 22;
 let acimaDoPeso = 25;
+function IMC(peso, altura){
+    let imc = peso/(altura**2);
 
-function IMC(peso){
-    if (peso < 18.5){
+    if (imc < 18.5){
         console.log("abaixo do peso");
-    }else if (peso <= 24.9){
+    }else if (imc <= 24.9){
         console.log("peso ideal");
     }else {
         console.log("acima do peso");
     }
 }
 
-IMC(abaixoDoPeso);
-IMC(pesoIdeal);
-IMC(acimaDoPeso);
+IMC(40, 1.70);
+IMC(68, 1.70);
+IMC(120, 1.70);
 
 //Exercício - 4
 let  criança = 11;
 let  adolescente = 15;
 let  adulto = 22;
 let  idoso = 61;
-
 function faixaEtária(idade){
     if (idade <= 12){
         console.log("faixa etária: criança");
@@ -73,14 +73,20 @@ faixaEtária(idoso);
 
 //Exercício - 5
 let cadastro = {
-    nome : "admin";
-    senha : 1234;
+    nome: "admin",
+    senha: "1234"
 }
 
-if (cadastro.senha == 1234){
-    
+let nomeUsuario = prompt("digite o seu nome de usuário");
+let senhaUsuario = prompt("digite o sua senha");
+if (cadastro.senha == senhaUsuario && cadastro.nome == nomeUsuario){
+    console.log("login foi realizado com sucesso");
+}else{
+    console.log("falha de autenticação");
 }
+
 //Exercício - 6
+
 //Exercício - 7
 //Exercício - 8
 //Exercício - 9
