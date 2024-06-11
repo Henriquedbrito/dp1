@@ -1,4 +1,4 @@
-//EX - 1
+//Exercício - 1
 let valorIndefinido;
 let valorVazio = "";
 let valorPreenchido = "valor"
