@@ -37,7 +37,7 @@ let acimaDoPeso = 25
 function IMC(peso){
     if (peso < 18.5){
         console.log("abaixo do peso");
-    }else if (peso =< 24.9){
+    }else if (peso <= 24.9){
         console.log("peso ideal");
     }else {
         console.log("acima do peso");
