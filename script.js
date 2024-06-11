@@ -32,7 +32,7 @@ if (numeroUm == 1){
 //Exercício - 3
 let abaixoDoPeso = 18;
 let pesoIdeal = 22;
-let acimaDoPeso = 25
+let acimaDoPeso = 25;
 
 function IMC(peso){
     if (peso < 18.5){
@@ -49,7 +49,37 @@ IMC(pesoIdeal);
 IMC(acimaDoPeso);
 
 //Exercício - 4
+let  criança = 11;
+let  adolescente = 15;
+let  adulto = 22;
+let  idoso = 61;
+
+function faixaEtária(idade){
+    if (idade <= 12){
+        console.log("faixa etária: criança");
+    }else if (idade <= 18){
+        console.log("faixa etária: adolescente");
+    }else if (idade <= 60){
+        console.log("faixa etária: adulto");
+    }else {
+        console.log("faixa etária: idoso");
+    }
+}
+
+faixaEtária(criança);
+faixaEtária(adolescente);
+faixaEtária(adulto);
+faixaEtária(idoso);
+
 //Exercício - 5
+let cadastro = {
+    nome : "admin";
+    senha : 1234;
+}
+
+if (cadastro.senha == 1234){
+    
+}
 //Exercício - 6
 //Exercício - 7
 //Exercício - 8
