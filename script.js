@@ -76,7 +76,7 @@ let cadastro = {
     nome: "admin",
     senha: "1234"
 }
-
+/*
 let nomeUsuario = prompt("digite o seu nome de usuário");
 let senhaUsuario = prompt("digite o sua senha");
 if (cadastro.senha == senhaUsuario && cadastro.nome == nomeUsuario){
@@ -84,10 +84,37 @@ if (cadastro.senha == senhaUsuario && cadastro.nome == nomeUsuario){
 }else{
     console.log("falha de autenticação");
 }
-
+*/
 //Exercício - 6
+let notas = [5, 6.5, 7, 8, 5.5, 6.5, 7];
+let soma = 0;
+for (let i = 0; i < notas.length; i++) {
+    soma += notas[i];
+}
+let mediaAluno = soma / notas.length;
+if(mediaAluno >= 6){
+    console.log("Aprovado");
+}else{
+    console.log("Reprovado");
+}
 
 //Exercício - 7
+document.addEventListener("DOMContentLoaded", function() {
+
+    const dados = {
+     nome: "João Silva",
+     idade : 21,
+     curso : "Engenharia de Software",
+     ano : 2024,
+    }
+
+    document.getElementById("informacoes").innerHTML = `
+        <div class="info">Nome: ${dados.nome}</div>
+        <div class="info">Idade: ${dados.idade}</div>
+        <div class="info">Curso: ${dados.curso}</div>
+        <div class="info">Ano: ${dados.ano}</div>
+    `;
+});
 
 //Exercício - 8
 let texto ="Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas."
@@ -104,4 +131,4 @@ let texto ="Tecnologia é um produto da ciência e da engenharia que envolve um 
 let numeroString = "1234";
 let transformaFloat = parseFloat(numeroString);
 let tipo = typeof transformaFloat
-console.log("tipo");
+console.log(tipo);
