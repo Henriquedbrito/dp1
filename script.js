@@ -88,5 +88,20 @@ if (cadastro.senha == senhaUsuario && cadastro.nome == nomeUsuario){
 //Exercício - 6
 
 //Exercício - 7
+
 //Exercício - 8
+let texto ="Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas."
+//ex-1
+ console.log(texto.indexOf("em"));
+ //ex-2
+ console.log(texto.lastIndexOf("ia"));
+ //ex-3
+ console.log(texto.indexOf("ciência"));
+ //ex-4
+ console.log(texto.indexOf("métodos"));
+
 //Exercício - 9
+let numeroString = "123";
+let transformaFloat = parseFloat(numeroString);
+let tipo = typeof transformaFloat
+console.log("tipo");
