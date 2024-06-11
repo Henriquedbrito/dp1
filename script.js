@@ -31,7 +31,7 @@ if (numeroUm == 1){
 
 //Exercício - 3
 let abaixoDoPeso = 18;
-let pesoIdeal = 21;
+let pesoIdeal = 22;
 let acimaDoPeso = 25
 
 function IMC(peso){
