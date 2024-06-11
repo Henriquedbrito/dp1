@@ -109,6 +109,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     document.getElementById("informacoes").innerHTML = `
+        <h1> Dados Aluno </h1>
         <div class="info">Nome: ${dados.nome}</div>
         <div class="info">Idade: ${dados.idade}</div>
         <div class="info">Curso: ${dados.curso}</div>
