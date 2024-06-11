@@ -101,7 +101,7 @@ let texto ="Tecnologia é um produto da ciência e da engenharia que envolve um 
  console.log(texto.indexOf("métodos"));
 
 //Exercício - 9
-let numeroString = "123";
+let numeroString = "1234";
 let transformaFloat = parseFloat(numeroString);
 let tipo = typeof transformaFloat
 console.log("tipo");
